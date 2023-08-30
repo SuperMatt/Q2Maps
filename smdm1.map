@@ -9,6 +9,7 @@
 "_sun_mangle" "-65 -65 0"
 "_minlight_color" "255 255 255"
 "_sunlight_color" "1 1 0.498039"
+"message" "Floodzone - SuperMatt"
 // brush 0
 {
 ( 64 64 0 ) ( 64 -64 0 ) ( 64 -64 -128 ) e1u1/wmtal6_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -1473,7 +1474,7 @@
 }
 // entity 7
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_proxlauncher"
 "origin" "-192 -384 336"
 }
 // entity 8
@@ -1526,7 +1527,7 @@
 }
 // entity 15
 {
-"classname" "weapon_nailgun"
+"classname" "weapon_shotgun"
 "origin" "320 1024 80"
 }
 // entity 16
@@ -1608,7 +1609,7 @@
 // entity 31
 {
 "classname" "light"
-"origin" "320 -256 120"
+"origin" "320 -288 120"
 }
 // entity 32
 {
@@ -1723,6 +1724,21 @@
 }
 // entity 48
 {
+"classname" "weapon_hyperblaster"
+"origin" "320 -288 16"
+}
+// entity 49
+{
+"classname" "weapon_shotgun"
+"origin" "-160 -480 16"
+}
+// entity 50
+{
+"classname" "light"
+"origin" "-160 -480 128"
+}
+// entity 51
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "box"
@@ -1792,7 +1808,7 @@
 ( 1664 -960 -128 ) ( 1664 -960 -112 ) ( 1664 2048 -128 ) e1u1/water1 [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 49
+// entity 52
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -1800,7 +1816,7 @@
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
 }
-// entity 50
+// entity 53
 {
 "classname" "info_player_start"
 "origin" "0 0 24"
