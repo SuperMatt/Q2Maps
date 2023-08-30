@@ -1748,7 +1748,7 @@
 // entity 52
 {
 "classname" "light"
-"origin" "568 256 0"
+"origin" "512 256 0"
 }
 // entity 53
 {
@@ -1768,17 +1768,17 @@
 // entity 56
 {
 "classname" "light"
-"origin" "-568 -256 0"
+"origin" "-512 -256 0"
 }
 // entity 57
 {
 "classname" "light"
-"origin" "-568 -256 128"
+"origin" "-512 -256 128"
 }
 // entity 58
 {
 "classname" "light"
-"origin" "-952 1024 0"
+"origin" "-896 1024 0"
 }
 // entity 59
 {
@@ -2167,6 +2167,11 @@
 }
 // entity 136
 {
+"classname" "light"
+"origin" "816 -288 120"
+}
+// entity 137
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "box"
@@ -2236,7 +2241,7 @@
 ( 1664 -960 -128 ) ( 1664 -960 -112 ) ( 1664 2048 -128 ) e1u1/water1 [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 137
+// entity 138
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -2244,7 +2249,7 @@
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
 }
-// entity 138
+// entity 139
 {
 "classname" "info_player_start"
 "origin" "0 0 24"
