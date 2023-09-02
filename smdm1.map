@@ -1611,7 +1611,7 @@
 }
 // entity 12
 {
-"classname" "item_quad"
+"classname" "weapon_heatbeam"
 "origin" "1248 -672 144"
 }
 // entity 13
@@ -1755,7 +1755,7 @@
 }
 // entity 40
 {
-"classname" "weapon_heatbeam"
+"classname" "item_quad"
 "origin" "96 320 -48"
 }
 // entity 41
