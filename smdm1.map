@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"_tb_textures" "textures/dark_1;textures/e1u1;textures/e2u1;textures/e3u1;textures/tomf;textures/unused"
+"_tb_textures" "textures/dark_1;textures/e1u1;textures/e1u2;textures/e2u1;textures/e3u1;textures/tomf;textures/unused"
 "_sunlight" "300"
 "_sun_mangle" "-65 -65 0"
 "_minlight_color" "255 255 255"
@@ -1880,6 +1880,15 @@
 ( 704 -576 16 ) ( 705 -576 16 ) ( 704 -576 17 ) e1u1/box1_5 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 768 -576 16 ) ( 768 -576 17 ) ( 768 -575 16 ) e1u1/box1_5 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+// brush 205
+{
+( 256 544 -128 ) ( 256 545 -128 ) ( 256 544 -127 ) e1u2/box4_1 [ 0 1 0 -32 ] [ 0 0 -1 64 ] 0 1 1
+( 256 544 -128 ) ( 256 544 -127 ) ( 257 544 -128 ) e1u2/box4_1 [ 1 0 0 0 ] [ 0 0 -1 64 ] 0 1 1
+( 256 544 -128 ) ( 257 544 -128 ) ( 256 545 -128 ) e1u2/box4_1 [ 1 0 0 0 ] [ 0 -1 0 64 ] 0 1 1
+( 320 608 -32 ) ( 320 609 -32 ) ( 321 608 -32 ) e1u2/box4_3 [ 1 0 0 0 ] [ 0 -1 0 32 ] 0 1 1
+( 320 608 -112 ) ( 321 608 -112 ) ( 320 608 -111 ) e1u2/box4_1 [ 1 0 0 0 ] [ 0 0 -1 64 ] 0 1 1
+( 320 608 -112 ) ( 320 608 -111 ) ( 320 609 -112 ) e1u2/box4_1 [ 0 1 0 -32 ] [ 0 0 -1 64 ] 0 1 1
+}
 }
 // entity 1
 {
@@ -2308,7 +2317,7 @@
 // entity 80
 {
 "classname" "item_health_large"
-"origin" "288 608 -112"
+"origin" "288 624 -112"
 }
 // entity 81
 {
@@ -7690,6 +7699,7 @@
 "_tb_name" "Water"
 "_tb_id" "3"
 "_tb_layer_sort_index" "2"
+"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -1840 2048 -128 ) ( -1840 2048 -112 ) ( -1840 -960 -128 ) e1u1/water1 [ 0 -1 0 0 ] [ 0 0 -1 16 ] 0 1 1
