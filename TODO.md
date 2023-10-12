@@ -1,0 +1,2 @@
+* Remove chainfist boxes and create a passage way which turns right and then goes under to where the new hole comes out by the hyberblaster
+* Maybe add a jumppad back up to the grenade launcher level, just in case
