@@ -13088,7 +13088,7 @@
 "spawnflags" "256"
 "angle" "180"
 "origin" "1168 -968 -424"
-"classname" "monster_kamikaze"
+"classname" "monster_flyer"
 }
 // entity 294
 {
@@ -13136,7 +13136,7 @@
 "angle" "315"
 "spawnflags" "768"
 "origin" "488 -944 -392"
-"classname" "monster_kamikaze"
+"classname" "monster_flyer"
 }
 // entity 301
 {
