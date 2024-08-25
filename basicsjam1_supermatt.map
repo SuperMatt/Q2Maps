@@ -9327,9 +9327,46 @@
 "origin" "-2312 -888 168"
 "angle" "90"
 "scale" "2"
-"health_multiplier" "4"
+"health_multiplier" "2"
 }
 // entity 286
+{
+"classname" "monster_shambler"
+"origin" "-2328 -568 168"
+"angle" "90"
+"scale" "2"
+"health_multiplier" "2"
+}
+// entity 287
+{
+"classname" "func_timer"
+"origin" "-2296 -1288 208"
+"targetname" "cell_timer"
+"wait" "10"
+"target" "cell_timer_spawner"
+}
+// entity 288
+{
+"classname" "target_spawner"
+"origin" "-2312 -1256 176"
+"target" "ammo_cells"
+"targetname" "cell_timer_spawner"
+}
+// entity 289
+{
+"classname" "trigger_once"
+"target" "cell_timer"
+// brush 0
+{
+( -2432 -320 128 ) ( -2432 -319 128 ) ( -2432 -320 129 ) e1u1/trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -2432 -320 128 ) ( -2432 -320 129 ) ( -2431 -320 128 ) e1u1/trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -2432 -320 136 ) ( -2431 -320 136 ) ( -2432 -319 136 ) e1u1/trigger [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -2176 -256 200 ) ( -2176 -255 200 ) ( -2175 -256 200 ) e1u1/trigger [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -2176 -256 144 ) ( -2175 -256 144 ) ( -2176 -256 145 ) e1u1/trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -2176 -256 144 ) ( -2176 -256 145 ) ( -2176 -255 144 ) e1u1/trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 290
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -9337,7 +9374,7 @@
 "_tb_id" "2"
 "_tb_layer_sort_index" "0"
 }
-// entity 287
+// entity 291
 {
 "classname" "target_spawner"
 "origin" "-536 448 -256"
@@ -9345,7 +9382,7 @@
 "target" "weapon_plasmabeam"
 "_tb_layer" "2"
 }
-// entity 288
+// entity 292
 {
 "classname" "target_splash"
 "origin" "-576 384 -216"
@@ -9354,7 +9391,7 @@
 "angle" "0"
 "_tb_layer" "2"
 }
-// entity 289
+// entity 293
 {
 "classname" "func_timer"
 "origin" "-608 400 -232"
@@ -9365,7 +9402,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 290
+// entity 294
 {
 "classname" "func_timer"
 "origin" "-496 416 -232"
@@ -9376,7 +9413,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 291
+// entity 295
 {
 "classname" "target_splash"
 "origin" "-512 384 -240"
@@ -9385,7 +9422,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 292
+// entity 296
 {
 "classname" "func_explosive"
 "health" "5"
@@ -9402,7 +9439,7 @@
 ( -500.94926883710957 455.1726037773443 -264 ) ( -500.94926883710957 455.1726037773443 -263 ) ( -500.69044979200703 456.1385296036334 -264 ) e1u2/box3_7 [ 0.2588190451025224 0.9659258262890678 0 -6.0077515 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 293
+// entity 297
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
