@@ -19962,13 +19962,63 @@
 }
 // entity 837
 {
+"classname" "target_speaker"
+"origin" "-1032 -328 -128"
+"noise" "world/comp_hum3.wav"
+"spawnflags" "1"
+"attenuation" "3"
+}
+// entity 838
+{
+"classname" "target_speaker"
+"origin" "-2016 1656 232"
+"targetname" "lava_field_1"
+"noise" "world/force1.wav"
+"spawnflags" "1"
+"attenuation" "2"
+}
+// entity 839
+{
+"classname" "target_speaker"
+"origin" "-2016 312 232"
+"targetname" "lava_field_1"
+"noise" "world/force1.wav"
+"spawnflags" "1"
+"attenuation" "2"
+}
+// entity 840
+{
+"classname" "target_speaker"
+"origin" "-976 584 -96"
+"noise" "world/amb3.wav"
+"spawnflags" "1"
+"attenuation" "3"
+}
+// entity 841
+{
+"classname" "target_speaker"
+"origin" "-1992 904 -32"
+"noise" "misc/lava1.wav"
+"attenuation" "3"
+"spawnflags" "1"
+}
+// entity 842
+{
+"classname" "target_speaker"
+"origin" "-2984 1352 -16"
+"noise" "misc/amb22.wav"
+"attenuation" "3"
+"spawnflags" "1"
+}
+// entity 843
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Breakable"
 "_tb_id" "2"
 "_tb_layer_sort_index" "0"
 }
-// entity 838
+// entity 844
 {
 "classname" "target_spawner"
 "origin" "-536 448 -256"
@@ -19976,7 +20026,7 @@
 "target" "weapon_plasmabeam"
 "_tb_layer" "2"
 }
-// entity 839
+// entity 845
 {
 "classname" "target_splash"
 "origin" "-576 384 -216"
@@ -19985,7 +20035,7 @@
 "angle" "0"
 "_tb_layer" "2"
 }
-// entity 840
+// entity 846
 {
 "classname" "func_timer"
 "origin" "-608 408 -232"
@@ -19996,7 +20046,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 841
+// entity 847
 {
 "classname" "func_timer"
 "origin" "-496 416 -232"
@@ -20007,7 +20057,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 842
+// entity 848
 {
 "classname" "target_splash"
 "origin" "-512 384 -240"
@@ -20016,7 +20066,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 843
+// entity 849
 {
 "classname" "func_explosive"
 "health" "5"
@@ -20033,7 +20083,7 @@
 ( -500.94926883710957 455.1726037773443 -264 ) ( -500.94926883710957 455.1726037773443 -263 ) ( -500.69044979200703 456.1385296036334 -264 ) e1u2/box3_7 [ 0.2588190451025224 0.9659258262890678 0 -6.0077515 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 844
+// entity 850
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
