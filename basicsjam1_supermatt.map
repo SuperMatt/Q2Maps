@@ -8321,7 +8321,7 @@
 "origin" "0 8 216"
 "noise" "world/flyby3.wav"
 "attenuation" "2"
-"targetname" "sound_flyby_1"
+"targetname" "start"
 }
 // entity 4
 {
@@ -8770,7 +8770,7 @@
 // entity 46
 {
 "classname" "trigger_once"
-"target" "sound_flyby_1"
+"target" "start"
 // brush 0
 {
 ( -48 -48 8 ) ( -48 -47 8 ) ( -48 -48 9 ) e1u1/trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -11821,7 +11821,7 @@
 "origin" "8 0 -252"
 "spawnflags" "1"
 "message" "Destroy everything!"
-"targetname" "sound_flyby_1"
+"targetname" "start"
 }
 // entity 286
 {
@@ -11829,7 +11829,7 @@
 "origin" "-24 0 -252"
 "spawnflags" "0"
 "message" "Find a cool weapon"
-"targetname" "sound_flyby_1"
+"targetname" "start"
 }
 // entity 287
 {
@@ -20057,13 +20057,144 @@
 }
 // entity 851
 {
+"classname" "trigger_relay"
+"origin" "-24 -136 -8"
+"targetname" "start"
+"target" "mins_9"
+"spawnflags" "1536"
+"message" "10 minutes remaining"
+}
+// entity 852
+{
+"classname" "trigger_relay"
+"origin" "8 -136 -8"
+"targetname" "start"
+"target" "mins_6"
+"spawnflags" "1280"
+"message" "7 minutes remaining"
+}
+// entity 853
+{
+"classname" "trigger_relay"
+"origin" "40 -136 -8"
+"targetname" "start"
+"target" "mins_4"
+"spawnflags" "768"
+"message" "5 minutes remaining"
+}
+// entity 854
+{
+"classname" "trigger_relay"
+"origin" "-24 -168 -8"
+"delay" "60"
+"message" "9 minutes remaining"
+"targetname" "mins_9"
+"target" "mins_8"
+}
+// entity 855
+{
+"classname" "trigger_relay"
+"origin" "-8 -168 -8"
+"delay" "60"
+"message" "8 minutes remaining"
+"targetname" "mins_8"
+"target" "mins_7"
+}
+// entity 856
+{
+"classname" "trigger_relay"
+"origin" "8 -168 -8"
+"delay" "60"
+"message" "7 minutes remaining"
+"targetname" "mins_7"
+"target" "mins_6"
+}
+// entity 857
+{
+"classname" "trigger_relay"
+"origin" "24 -168 -8"
+"delay" "60"
+"message" "6 minutes remaining"
+"targetname" "mins_6"
+"target" "mins_5"
+}
+// entity 858
+{
+"classname" "trigger_relay"
+"origin" "40 -168 -8"
+"delay" "60"
+"message" "5 minutes remaining"
+"targetname" "mins_5"
+"target" "mins_4"
+}
+// entity 859
+{
+"classname" "trigger_relay"
+"origin" "56 -168 -8"
+"delay" "60"
+"message" "4 minutes remaining"
+"targetname" "mins_4"
+"target" "mins_3"
+}
+// entity 860
+{
+"classname" "trigger_relay"
+"origin" "72 -168 -8"
+"delay" "60"
+"message" "3 minutes remaining"
+"targetname" "mins_3"
+"target" "mins_2"
+}
+// entity 861
+{
+"classname" "trigger_relay"
+"origin" "88 -168 -8"
+"delay" "60"
+"message" "2 minutes remaining"
+"targetname" "mins_2"
+"target" "mins_1"
+}
+// entity 862
+{
+"classname" "trigger_relay"
+"origin" "104 -168 -8"
+"delay" "60"
+"message" "1 minutes remaining"
+"targetname" "mins_1"
+"target" "secs_30"
+}
+// entity 863
+{
+"classname" "trigger_relay"
+"origin" "120 -168 -8"
+"delay" "30"
+"message" "30 seconds remaining"
+"targetname" "secs_30"
+"target" "kill_all_relay"
+}
+// entity 864
+{
+"classname" "trigger_relay"
+"origin" "136 -168 -8"
+"targetname" "kill_all_relay"
+"delay" "30"
+"target" "kill_all"
+}
+// entity 865
+{
+"classname" "target_killplayers"
+"origin" "152 -168 -8"
+"targetname" "kill_all"
+}
+// entity 866
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Breakable"
 "_tb_id" "2"
 "_tb_layer_sort_index" "0"
 }
-// entity 852
+// entity 867
 {
 "classname" "target_spawner"
 "origin" "-536 448 -256"
@@ -20071,7 +20202,7 @@
 "target" "weapon_plasmabeam"
 "_tb_layer" "2"
 }
-// entity 853
+// entity 868
 {
 "classname" "target_splash"
 "origin" "-576 384 -216"
@@ -20080,7 +20211,7 @@
 "angle" "0"
 "_tb_layer" "2"
 }
-// entity 854
+// entity 869
 {
 "classname" "func_timer"
 "origin" "-608 408 -232"
@@ -20091,7 +20222,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 855
+// entity 870
 {
 "classname" "func_timer"
 "origin" "-496 416 -232"
@@ -20102,7 +20233,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 856
+// entity 871
 {
 "classname" "target_splash"
 "origin" "-512 384 -240"
@@ -20111,7 +20242,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 857
+// entity 872
 {
 "classname" "func_explosive"
 "health" "5"
@@ -20128,7 +20259,7 @@
 ( -500.94926883710957 455.1726037773443 -264 ) ( -500.94926883710957 455.1726037773443 -263 ) ( -500.69044979200703 456.1385296036334 -264 ) e1u2/box3_7 [ 0.2588190451025224 0.9659258262890678 0 -6.0077515 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 858
+// entity 873
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
