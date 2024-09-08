@@ -11819,8 +11819,8 @@
 {
 "classname" "target_help"
 "origin" "8 0 -252"
-"spawnflags" "1"
-"message" "Destroy everything!"
+"spawnflags" "1537"
+"message" "Get in, find a cool weapon,\nget out in 10 minutes"
 "targetname" "start"
 }
 // entity 286
@@ -11856,7 +11856,7 @@
 "classname" "target_help"
 "origin" "-504 520 -224"
 "targetname" "breakable_door_1"
-"message" "Secondary Objective Complete"
+"message" "Get Out!"
 }
 // entity 290
 {
@@ -20188,13 +20188,29 @@
 }
 // entity 866
 {
+"classname" "target_help"
+"origin" "8 -32 -252"
+"spawnflags" "1281"
+"message" "Get in, find a cool weapon,\nget out in 7 minutes"
+"targetname" "start"
+}
+// entity 867
+{
+"classname" "target_help"
+"origin" "8 -64 -252"
+"spawnflags" "769"
+"message" "Get in, find a cool weapon,\nget out in 5 minutes"
+"targetname" "start"
+}
+// entity 868
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Breakable"
 "_tb_id" "2"
 "_tb_layer_sort_index" "0"
 }
-// entity 867
+// entity 869
 {
 "classname" "target_spawner"
 "origin" "-536 448 -256"
@@ -20202,7 +20218,7 @@
 "target" "weapon_plasmabeam"
 "_tb_layer" "2"
 }
-// entity 868
+// entity 870
 {
 "classname" "target_splash"
 "origin" "-576 384 -216"
@@ -20211,7 +20227,7 @@
 "angle" "0"
 "_tb_layer" "2"
 }
-// entity 869
+// entity 871
 {
 "classname" "func_timer"
 "origin" "-608 408 -232"
@@ -20222,7 +20238,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 870
+// entity 872
 {
 "classname" "func_timer"
 "origin" "-496 416 -232"
@@ -20233,7 +20249,7 @@
 "wait" "0"
 "_tb_layer" "2"
 }
-// entity 871
+// entity 873
 {
 "classname" "target_splash"
 "origin" "-512 384 -240"
@@ -20242,7 +20258,7 @@
 "angle" "180"
 "_tb_layer" "2"
 }
-// entity 872
+// entity 874
 {
 "classname" "func_explosive"
 "health" "5"
@@ -20259,7 +20275,7 @@
 ( -500.94926883710957 455.1726037773443 -264 ) ( -500.94926883710957 455.1726037773443 -263 ) ( -500.69044979200703 456.1385296036334 -264 ) e1u2/box3_7 [ 0.2588190451025224 0.9659258262890678 0 -6.0077515 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 873
+// entity 875
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
